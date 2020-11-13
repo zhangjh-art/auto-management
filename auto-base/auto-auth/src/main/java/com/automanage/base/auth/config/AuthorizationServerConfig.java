@@ -40,7 +40,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     private UserDetailsServiceImpl userDetailsService;
 
     /**
-     * 配置客户端详情(数据库)
+     * 配置客户端详情(数据库配置)
      */
     @Override
     @SneakyThrows
