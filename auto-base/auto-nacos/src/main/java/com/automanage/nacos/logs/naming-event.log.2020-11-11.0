@@ -1,0 +1,56 @@
+2020-11-11 14:01:12,362 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 14:01:12,366 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-11 14:01:59,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-11 17:32:00,774 INFO DEFAULT_GROUP@@youlai-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:32:00,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-auth, ips: 172.28.20.216:8000_true,
+
+2020-11-11 17:32:16,732 INFO DEFAULT_GROUP@@youlai-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:32:16,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-gateway, ips: 172.28.20.216:9999_true,
+
+2020-11-11 17:32:29,092 INFO DEFAULT_GROUP@@youlai-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:32:29,093 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-gateway, ips: 
+
+2020-11-11 17:32:45,783 INFO {POS} {IP-DISABLED} valid: 172.28.20.216:8000@DEFAULT@DEFAULT_GROUP@@youlai-auth, region: unknown, msg: client timeout after 15000, last beat: 1605087145785
+
+2020-11-11 17:32:55,959 INFO DEFAULT_GROUP@@youlai-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-11 17:32:55,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-auth, ips: 
+
+2020-11-11 17:33:53,747 INFO DEFAULT_GROUP@@youlai-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:33:53,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-auth, ips: 172.28.20.216:8000_true,
+
+2020-11-11 17:34:14,149 INFO DEFAULT_GROUP@@youlai-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:34:14,149 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-gateway, ips: 172.28.20.216:9999_true,
+
+2020-11-11 17:34:32,499 INFO DEFAULT_GROUP@@youlai-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:34:32,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-admin, ips: 172.28.20.216:8080_true,
+
+2020-11-11 17:37:09,192 INFO DEFAULT_GROUP@@youlai-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:37:09,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-gateway, ips: 
+
+2020-11-11 17:37:26,058 INFO {POS} {IP-DISABLED} valid: 172.28.20.216:8000@DEFAULT@DEFAULT_GROUP@@youlai-auth, region: unknown, msg: client timeout after 15000, last beat: 1605087428885
+
+2020-11-11 17:37:27,534 INFO {POS} {IP-DISABLED} valid: 172.28.20.216:8080@DEFAULT@DEFAULT_GROUP@@youlai-admin, region: unknown, msg: client timeout after 15000, last beat: 1605087427598
+
+2020-11-11 17:37:41,066 INFO DEFAULT_GROUP@@youlai-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-11 17:37:41,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-auth, ips: 
+
+2020-11-11 17:37:42,538 INFO DEFAULT_GROUP@@youlai-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-11 17:37:42,538 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-admin, ips: 
+
+2020-11-11 17:42:05,559 INFO DEFAULT_GROUP@@youlai-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-11 17:42:05,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@youlai-auth, ips: 172.28.20.216:8000_true,
+

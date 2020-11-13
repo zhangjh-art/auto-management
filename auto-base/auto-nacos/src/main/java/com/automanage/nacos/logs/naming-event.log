@@ -1,0 +1,70 @@
+2020-11-12 14:39:37,456 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2020-11-12 15:12:47,347 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:12:47,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:15:37,532 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:15:37,532 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:15:46,490 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:15:46,490 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:16:06,513 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:16:06,517 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:16:07,618 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:16:07,618 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:16:16,566 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:16:16,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:24:52,408 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:24:52,408 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:25:01,356 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:25:01,356 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:38:00,546 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:38:00,546 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:38:09,352 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:38:09,352 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:41:10,956 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:41:10,956 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:41:19,456 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:41:19,456 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 15:43:51,441 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:43:51,441 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 
+
+2020-11-12 15:44:00,171 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 15:44:00,171 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 172.28.20.216:8763_true,
+
+2020-11-12 16:25:14,629 INFO DEFAULT_GROUP@@base-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.20.216:8764:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 16:25:14,630 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-auth, ips: 172.28.20.216:8764_true,
+
+2020-11-12 16:25:41,063 INFO DEFAULT_GROUP@@base-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8764:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 16:25:41,063 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-auth, ips: 
+
+2020-11-12 16:25:43,015 INFO DEFAULT_GROUP@@base-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.20.216:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-12 16:25:43,015 INFO [IP-UPDATED] namespace: 252300de-5857-4435-9d06-cf301f1e0733, service: DEFAULT_GROUP@@base-gateway, ips: 
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auto-auth" />
+        <module name="auto-system-assembly" />
+        <module name="auto-gateway" />
+        <module name="common-cons" />
+        <module name="auto-system-dao" />
+        <module name="auto-system-service" />
+        <module name="auto-nacos" />
+        <module name="auto-common" />
+        <module name="auto-system-biz" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auto-config" target="1.8" />
+      <module name="auto-eureka" target="1.8" />
+      <module name="auto-zuul" target="1.8" />
+      <module name="common-constants" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auto-auth" options="-parameters" />
+      <module name="auto-common" options="-parameters" />
+      <module name="auto-config" options="-parameters" />
+      <module name="auto-eureka" options="-parameters" />
+      <module name="auto-gateway" options="-parameters" />
+      <module name="auto-nacos" options="-parameters" />
+      <module name="auto-system" options="-parameters" />
+      <module name="auto-system-assembly" options="-parameters" />
+      <module name="auto-system-biz" options="-parameters" />
+      <module name="auto-system-dao" options="-parameters" />
+      <module name="auto-system-service" options="-parameters" />
+      <module name="auto-zuul" options="-parameters" />
+      <module name="common-cons" options="-parameters" />
+      <module name="common-constants" options="-parameters" />
+    </option>
+  </component>
+</project>

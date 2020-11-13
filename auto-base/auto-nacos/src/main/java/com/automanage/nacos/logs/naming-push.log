@@ -1,0 +1,58 @@
+2020-11-12 15:12:48,350 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:15:38,533 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:15:47,491 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:16:07,516 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:16:08,619 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:16:17,567 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:24:53,410 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:25:02,358 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:38:01,548 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:38:10,354 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:41:11,958 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:41:20,458 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:43:52,442 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:44:01,172 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 15:44:01,181 INFO serviceName: DEFAULT_GROUP@@base-gateway changed, schedule push for: 172.28.20.216:50930, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,50930,25539377680000
+
+2020-11-12 15:44:01,181 INFO send udp packet: 172.28.20.216,50930,25539377680000
+
+2020-11-12 15:44:01,186 INFO received ack: {"type": "push-ack", "lastRefTime":"25539377680000", "data":""} from: 172.28.20.216:50930, cost: 5 ms, unacked: 0, total push: 1
+
+2020-11-12 16:25:15,630 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2020-11-12 16:25:42,065 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2020-11-12 16:25:42,065 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 172.28.20.216:50930, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,50930,28040270197600
+
+2020-11-12 16:25:42,065 INFO send udp packet: 172.28.20.216,50930,28040270197600
+
+2020-11-12 16:25:42,067 INFO received ack: {"type": "push-ack", "lastRefTime":"28040270197600", "data":""} from: 172.28.20.216:50930, cost: 2 ms, unacked: 0, total push: 2
+
+2020-11-12 16:25:44,017 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-12 16:25:44,017 INFO serviceName: DEFAULT_GROUP@@base-gateway changed, schedule push for: 172.28.20.216:50930, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,50930,28042222061800
+
+2020-11-12 16:25:44,017 INFO send udp packet: 172.28.20.216,50930,28042222061800
+
+2020-11-12 16:25:54,019 INFO retry to push data, key: 172.28.20.216,50930,28042222061800
+
+2020-11-12 16:25:54,019 INFO send udp packet: 172.28.20.216,50930,28042222061800
+
+2020-11-12 16:26:04,022 INFO retry to push data, key: 172.28.20.216,50930,28042222061800
+
+2020-11-12 16:26:04,022 WARN max re-push times reached, retry times 2, key: 172.28.20.216,50930,28042222061800
+

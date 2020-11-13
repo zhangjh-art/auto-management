@@ -1,0 +1,78 @@
+2020-11-11 11:50:01,735 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-11-11 11:50:01,736 INFO listen for service meta change
+
+2020-11-11 14:01:12,282 INFO creating empty service public:DEFAULT_GROUP@@base-gateway
+
+2020-11-11 14:01:12,327 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@base-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605074472289,"checksum":"b88ae760a0cc72d7d5ac6ac97bb0e907","clusterMap":{},"empty":true}
+
+2020-11-11 14:01:12,346 WARN cluster: DEFAULT not found, ip: {"instanceId":"172.28.20.216#8763#DEFAULT#DEFAULT_GROUP@@base-gateway","ip":"172.28.20.216","port":8763,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605074472259,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-11-11 14:01:12,361 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@base-gateway, value: {"instanceList":[{"instanceId":"172.28.20.216#8763#DEFAULT#DEFAULT_GROUP@@base-gateway","ip":"172.28.20.216","port":8763,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605074472259,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 14:01:59,887 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@base-gateway, value: {"instanceList":[{"instanceId":"172.28.20.216#8763#DEFAULT#DEFAULT_GROUP@@base-gateway","ip":"172.28.20.216","port":8763,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605074519887,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:32:00,772 INFO creating empty service public:DEFAULT_GROUP@@youlai-auth
+
+2020-11-11 17:32:00,773 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@youlai-auth","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087120773,"checksum":"da633daed8377e14052e436548c4e865","clusterMap":{},"empty":true}
+
+2020-11-11 17:32:00,773 WARN cluster: DEFAULT not found, ip: {"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087120772,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-11-11 17:32:00,774 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-auth, value: {"instanceList":[{"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087120772,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:32:16,731 INFO creating empty service public:DEFAULT_GROUP@@youlai-gateway
+
+2020-11-11 17:32:16,732 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@youlai-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087136732,"checksum":"373356d8b10d44f2d4bd0496dd29d662","clusterMap":{},"empty":true}
+
+2020-11-11 17:32:16,732 WARN cluster: DEFAULT not found, ip: {"instanceId":"172.28.20.216#9999#DEFAULT#DEFAULT_GROUP@@youlai-gateway","ip":"172.28.20.216","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087136731,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-11-11 17:32:16,732 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-gateway, value: {"instanceList":[{"instanceId":"172.28.20.216#9999#DEFAULT#DEFAULT_GROUP@@youlai-gateway","ip":"172.28.20.216","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087136731,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:32:29,092 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-gateway, value: {"instanceList":[]}
+
+2020-11-11 17:32:55,790 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@youlai-auth, ip: {"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087145785,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2020-11-11 17:32:55,958 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-auth, value: {"instanceList":[]}
+
+2020-11-11 17:33:53,747 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-auth, value: {"instanceList":[{"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087233746,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:34:14,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-gateway, value: {"instanceList":[{"instanceId":"172.28.20.216#9999#DEFAULT#DEFAULT_GROUP@@youlai-gateway","ip":"172.28.20.216","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087254149,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:34:32,497 INFO creating empty service public:DEFAULT_GROUP@@youlai-admin
+
+2020-11-11 17:34:32,497 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@youlai-admin","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087272497,"checksum":"d63a34b9d7a610805eeef901018010fd","clusterMap":{},"empty":true}
+
+2020-11-11 17:34:32,497 WARN cluster: DEFAULT not found, ip: {"instanceId":"172.28.20.216#8080#DEFAULT#DEFAULT_GROUP@@youlai-admin","ip":"172.28.20.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-admin","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087272497,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-11-11 17:34:32,499 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-admin, value: {"instanceList":[{"instanceId":"172.28.20.216#8080#DEFAULT#DEFAULT_GROUP@@youlai-admin","ip":"172.28.20.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-admin","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087272497,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2020-11-11 17:37:09,192 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-gateway, value: {"instanceList":[]}
+
+2020-11-11 17:37:41,062 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@youlai-auth, ip: {"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087428885,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2020-11-11 17:37:41,066 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-auth, value: {"instanceList":[]}
+
+2020-11-11 17:37:42,537 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@youlai-admin, ip: {"instanceId":"172.28.20.216#8080#DEFAULT#DEFAULT_GROUP@@youlai-admin","ip":"172.28.20.216","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-admin","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087427598,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2020-11-11 17:37:42,538 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-admin, value: {"instanceList":[]}
+
+2020-11-11 17:39:21,726 WARN namespace : public, [DEFAULT_GROUP@@youlai-gateway] services are automatically cleaned
+
+2020-11-11 17:39:21,730 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@youlai-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087429192,"checksum":"5127f476ef3091598aba973961fa8c74","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@youlai-gateway","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-11-11 17:39:51,726 WARN namespace : public, [DEFAULT_GROUP@@youlai-admin] services are automatically cleaned
+
+2020-11-11 17:39:51,726 WARN namespace : public, [DEFAULT_GROUP@@youlai-auth] services are automatically cleaned
+
+2020-11-11 17:39:51,727 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@youlai-admin","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087462538,"checksum":"8e1c28a1c4486b18c8fbf5688a54e4f5","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@youlai-admin","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-11-11 17:39:51,727 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@youlai-auth","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087461066,"checksum":"1f627162d12536282a49091fe3bf9c27","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@youlai-auth","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-11-11 17:42:05,556 INFO creating empty service public:DEFAULT_GROUP@@youlai-auth
+
+2020-11-11 17:42:05,557 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@youlai-auth","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1605087725556,"checksum":"da633daed8377e14052e436548c4e865","clusterMap":{},"empty":true}
+
+2020-11-11 17:42:05,559 WARN cluster: DEFAULT not found, ip: {"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087725556,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-11-11 17:42:05,559 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@youlai-auth, value: {"instanceList":[{"instanceId":"172.28.20.216#8000#DEFAULT#DEFAULT_GROUP@@youlai-auth","ip":"172.28.20.216","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@youlai-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1605087725556,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+

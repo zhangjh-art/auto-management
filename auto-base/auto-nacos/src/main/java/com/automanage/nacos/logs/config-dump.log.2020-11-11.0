@@ -1,0 +1,14 @@
+2020-11-11 11:50:01,896 INFO [dump-all-ok] mall-oms.yaml+DEFAULT_GROUP, 1605060036000, length=528, md5=c8b8ec2cdeddea64057a5e5a246649af
+
+2020-11-11 11:50:01,897 INFO [dump-all-ok] mall-pms.yaml+DEFAULT_GROUP, 1605060048000, length=528, md5=c8b8ec2cdeddea64057a5e5a246649af
+
+2020-11-11 11:50:01,898 INFO [dump-all-ok] mall-sms.yaml+DEFAULT_GROUP, 1605060057000, length=528, md5=c8b8ec2cdeddea64057a5e5a246649af
+
+2020-11-11 11:50:01,899 INFO [dump-all-ok] mall-ums.yaml+DEFAULT_GROUP, 1605060069000, length=526, md5=a2a125d32f98df241c58f39f0334946e
+
+2020-11-11 11:50:01,899 INFO [dump-all-ok] youlai-admin.yaml+DEFAULT_GROUP, 1605060085000, length=701, md5=2ffa3c96adc2c3f454d7704e2d5d5db8
+
+2020-11-11 11:50:01,900 INFO [dump-all-ok] youlai-auth.yaml+DEFAULT_GROUP, 1605060095000, length=337, md5=1a73057bcb4286b73e66392574ebc040
+
+2020-11-11 11:50:01,901 INFO [dump-all-ok] youlai-gateway.yaml+DEFAULT_GROUP, 1605059146000, length=866, md5=ea04e4a70c2fbfed076a88ff9a2e796e
+

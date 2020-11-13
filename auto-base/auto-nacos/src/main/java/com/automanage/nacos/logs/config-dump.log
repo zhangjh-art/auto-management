@@ -1,0 +1,34 @@
+2020-11-12 14:39:28,077 INFO [dump-all-ok] mall-oms.yaml+DEFAULT_GROUP, 1605087171000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 14:39:28,080 INFO [dump-all-ok] mall-pms.yaml+DEFAULT_GROUP, 1605087179000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 14:39:28,081 INFO [dump-all-ok] mall-sms.yaml+DEFAULT_GROUP, 1605087188000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 14:39:28,082 INFO [dump-all-ok] mall-ums.yaml+DEFAULT_GROUP, 1605087196000, length=526, md5=84e1b6e6a753d6613357155547a6dfd3
+
+2020-11-12 14:39:28,084 INFO [dump-all-ok] youlai-admin.yaml+DEFAULT_GROUP, 1605087205000, length=701, md5=c617abfc1cd47950b8fe03da0e206386
+
+2020-11-12 14:39:28,085 INFO [dump-all-ok] youlai-auth.yaml+DEFAULT_GROUP, 1605087216000, length=337, md5=e70fe18471472fb3400ca58f385b4733
+
+2020-11-12 14:39:28,088 INFO [dump-all-ok] youlai-gateway.yaml+DEFAULT_GROUP, 1605087016000, length=866, md5=ea04e4a70c2fbfed076a88ff9a2e796e
+
+2020-11-12 15:09:28,690 INFO [dump-all-ok] mall-oms.yaml+DEFAULT_GROUP, 1605087171000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 15:09:28,692 INFO [dump-all-ok] mall-pms.yaml+DEFAULT_GROUP, 1605087179000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 15:09:28,693 INFO [dump-all-ok] mall-sms.yaml+DEFAULT_GROUP, 1605087188000, length=528, md5=9764063c99180a33f1deecf19b9303c5
+
+2020-11-12 15:09:28,695 INFO [dump-all-ok] mall-ums.yaml+DEFAULT_GROUP, 1605087196000, length=526, md5=84e1b6e6a753d6613357155547a6dfd3
+
+2020-11-12 15:09:28,697 INFO [dump-all-ok] youlai-admin.yaml+DEFAULT_GROUP, 1605087205000, length=701, md5=c617abfc1cd47950b8fe03da0e206386
+
+2020-11-12 15:09:28,699 INFO [dump-all-ok] youlai-auth.yaml+DEFAULT_GROUP, 1605087216000, length=337, md5=e70fe18471472fb3400ca58f385b4733
+
+2020-11-12 15:09:28,700 INFO [dump-all-ok] youlai-gateway.yaml+DEFAULT_GROUP, 1605087016000, length=866, md5=ea04e4a70c2fbfed076a88ff9a2e796e
+
+2020-11-12 15:09:28,701 INFO [dump-all-ok] auto-auth.yaml+AUTO_GROUP, 1605164313000, length=337, md5=15bfa3a6a96166b7c075cc66578be3f3
+
+2020-11-12 15:09:28,702 INFO [dump-all-ok] auto-gateway.yaml+AUTO_GROUP, 1605164313000, length=685, md5=4b3eff7141528a598572e987f1cc5bcb
+
+2020-11-12 15:09:28,702 INFO [dump-all-ok] auto-system.yaml+AUTO_GROUP, 1605164313000, length=602, md5=0ffdeea4b2f77a9d5fc05e12f48c6f27
+

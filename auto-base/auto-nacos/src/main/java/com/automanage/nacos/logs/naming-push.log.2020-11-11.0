@@ -1,0 +1,70 @@
+2020-11-11 14:01:13,368 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-11 14:02:00,889 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2020-11-11 17:32:01,775 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:32:16,012 WARN client: 172.28.20.216:60317 already associated with key serviceName: DEFAULT_GROUP@@base-gateway, clusters: , address: /172.28.20.216:60317, agent: Nacos-Java-Client:v1.2.1
+
+2020-11-11 17:32:17,734 INFO DEFAULT_GROUP@@youlai-gateway is changed, add it to push queue.
+
+2020-11-11 17:32:17,751 INFO serviceName: DEFAULT_GROUP@@youlai-gateway changed, schedule push for: 172.28.20.216:60317, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,60317,118309732097100
+
+2020-11-11 17:32:17,751 INFO send udp packet: 172.28.20.216,60317,118309732097100
+
+2020-11-11 17:32:17,757 INFO received ack: {"type": "push-ack", "lastRefTime":"118309732097100", "data":""} from: 172.28.20.216:60317, cost: 6 ms, unacked: 0, total push: 1
+
+2020-11-11 17:32:30,095 INFO DEFAULT_GROUP@@youlai-gateway is changed, add it to push queue.
+
+2020-11-11 17:32:30,095 INFO serviceName: DEFAULT_GROUP@@youlai-gateway changed, schedule push for: 172.28.20.216:60317, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:30,095 INFO send udp packet: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:40,097 INFO retry to push data, key: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:40,097 INFO send udp packet: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:46,784 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:32:50,099 INFO retry to push data, key: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:50,099 WARN max re-push times reached, retry times 2, key: 172.28.20.216,60317,118322092961900
+
+2020-11-11 17:32:56,960 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:33:54,747 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:34:15,150 INFO DEFAULT_GROUP@@youlai-gateway is changed, add it to push queue.
+
+2020-11-11 17:34:15,150 INFO serviceName: DEFAULT_GROUP@@youlai-gateway changed, schedule push for: 172.28.20.216:59799, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,59799,118427148466400
+
+2020-11-11 17:34:15,150 INFO send udp packet: 172.28.20.216,59799,118427148466400
+
+2020-11-11 17:34:15,153 INFO received ack: {"type": "push-ack", "lastRefTime":"118427148466400", "data":""} from: 172.28.20.216:59799, cost: 3 ms, unacked: 0, total push: 3
+
+2020-11-11 17:34:33,500 INFO DEFAULT_GROUP@@youlai-admin is changed, add it to push queue.
+
+2020-11-11 17:37:10,194 INFO DEFAULT_GROUP@@youlai-gateway is changed, add it to push queue.
+
+2020-11-11 17:37:10,194 INFO serviceName: DEFAULT_GROUP@@youlai-gateway changed, schedule push for: 172.28.20.216:59799, agent: Nacos-Java-Client:v1.2.1, key: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:10,194 INFO send udp packet: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:20,195 INFO retry to push data, key: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:20,195 INFO send udp packet: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:27,059 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:37:28,536 INFO DEFAULT_GROUP@@youlai-admin is changed, add it to push queue.
+
+2020-11-11 17:37:30,197 INFO retry to push data, key: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:30,197 WARN max re-push times reached, retry times 2, key: 172.28.20.216,59799,118602192103800
+
+2020-11-11 17:37:42,069 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
+2020-11-11 17:37:43,540 INFO DEFAULT_GROUP@@youlai-admin is changed, add it to push queue.
+
+2020-11-11 17:42:06,561 INFO DEFAULT_GROUP@@youlai-auth is changed, add it to push queue.
+
