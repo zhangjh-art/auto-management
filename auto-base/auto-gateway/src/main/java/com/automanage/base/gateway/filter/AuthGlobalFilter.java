@@ -26,9 +26,11 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
 import java.nio.charset.Charset;
+import java.text.ParseException;
 
 /**
  * 黑名单token过滤器
+ * 将登录用户的JWT转化成用户信息
  */
 @Component
 @Slf4j
@@ -47,6 +49,17 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
         token = token.replace(AuthConstants.JWT_TOKEN_PREFIX, Strings.EMPTY);
         JWSObject jwsObject = JWSObject.parse(token);
         String payload = jwsObject.getPayload().toString();
+
+        //将登录用户的JWT转化成用户信息
+        try {
+            //从token中解析用户信息并设置到Header中去
+            String realToken = token.replace("Bearer ", "");
+            String userStr = JWSObject.parse(realToken).getPayload().toString();
+            ServerHttpRequest request = exchange.getRequest().mutate().header("user", userStr).build();
+            exchange = exchange.mutate().request(request).build();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
         // 黑名单token(登出、修改密码)校验
         JSONObject jsonObject = JSONUtil.parseObj(payload);
