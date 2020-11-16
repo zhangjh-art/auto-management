@@ -24,7 +24,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * 鉴权管理器
+ * 鉴权管理器：验证是否有权访问资源的裁决者
  */
 @Component
 @AllArgsConstructor

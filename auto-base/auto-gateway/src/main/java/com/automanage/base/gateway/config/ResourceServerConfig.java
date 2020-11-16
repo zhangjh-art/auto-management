@@ -21,7 +21,7 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
 import reactor.core.publisher.Mono;
 
 /**
- * 资源服务器配置
+ * 资源服务器配置：将鉴权管理器AuthorizationManager配置到资源服务器、请求白名单放行、无权访问和无效token的自定义异常响应。
  */
 @AllArgsConstructor
 @Configuration
