@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * 用户管理实体类
- *
- * @author dousl
  */
 @Setter
 @Getter

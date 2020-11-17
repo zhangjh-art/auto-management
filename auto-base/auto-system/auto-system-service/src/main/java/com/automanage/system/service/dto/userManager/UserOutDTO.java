@@ -9,8 +9,6 @@ import java.util.List;
 
 /**
  * 用户管理出参实体
- *
- * @author dousl
  */
 @Setter
 @Getter

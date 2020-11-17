@@ -9,8 +9,6 @@ import java.math.BigDecimal;
 
 /**
  * 用户管理实体
- *
- * @author dousl
  */
 @Setter
 @Getter

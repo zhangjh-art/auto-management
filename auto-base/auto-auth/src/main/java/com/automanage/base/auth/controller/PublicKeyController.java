@@ -26,4 +26,10 @@ public class PublicKeyController {
         return new JWKSet(key).toJSONObject();
     }
 
+    @GetMapping("/oauth/hello")
+    public void hello() {
+        int num = 1;
+        System.out.println("nacos远程调用成功！");
+    }
+
 }

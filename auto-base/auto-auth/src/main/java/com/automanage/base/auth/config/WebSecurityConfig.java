@@ -20,7 +20,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .authorizeRequests().requestMatchers(EndpointRequest.toAnyEndpoint()).permitAll()
         .and()//获取公钥请求放行
             .authorizeRequests().antMatchers("/rsa/publicKey","/oauth/logout").permitAll()
-            //其它请求都要经过登录认证
+            //其它请求都要经过认证
             .anyRequest().authenticated()
         //跨站请求伪造禁用
         .and().csrf().disable();
