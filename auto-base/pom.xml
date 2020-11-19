@@ -30,6 +30,8 @@
         <java.version>1.8</java.version>
         <lombok.version>1.18.12</lombok.version>
         <mybatis-generator.version>1.3.6</mybatis-generator.version>
+        <tk-mybatis.version>2.1.5</tk-mybatis.version>
+        <beanutils.version>1.9.3</beanutils.version>
         <mapper-generator.version>1.0.4</mapper-generator.version>
         <mysql-connector.version>5.1.35</mysql-connector.version>
         <base.version>1.0-SNAPSHOT</base.version>

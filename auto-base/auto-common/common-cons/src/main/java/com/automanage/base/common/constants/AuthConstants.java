@@ -47,4 +47,14 @@ public interface AuthConstants {
      */
     String JWT_PAYLOAD_KEY = "payload";
 
+    /**
+     * 密码加密方式
+     */
+    String BCRYPT = "{bcrypt}";
+
+    /**
+     * 客户端ID
+     */
+    String ADMIN_CLIENT_ID="client";
+
 }

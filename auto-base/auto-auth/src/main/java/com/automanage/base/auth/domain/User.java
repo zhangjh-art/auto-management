@@ -1,9 +1,7 @@
-/*
 package com.automanage.base.auth.domain;
 
-import com.youlai.admin.dto.UserDTO;
-import com.youlai.common.core.constant.AuthConstants;
-import com.youlai.mall.ums.dto.MemberDTO;
+import com.automanage.base.common.constants.AuthConstants;
+import com.automanage.base.system.dto.ClientDTO;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
@@ -14,10 +12,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 
-*/
 /**
  * 登录用户信息
- *//*
+ */
 
 @Data
 @NoArgsConstructor
@@ -35,7 +32,7 @@ public class User implements UserDetails {
 
     private Collection<SimpleGrantedAuthority> authorities;
 
-    public User(UserDTO user) {
+    public User(ClientDTO user) {
         this.setId(user.getId());
         this.setUsername(user.getUsername());
         this.setPassword(AuthConstants.BCRYPT + user.getPassword());
@@ -46,15 +43,6 @@ public class User implements UserDetails {
             user.getRoles().forEach(roleId -> authorities.add(new SimpleGrantedAuthority(String.valueOf(roleId))));
         }
     }
-
-    public User(MemberDTO member){
-        this.setId(member.getId());
-        this.setUsername(member.getUsername());
-        this.setPassword(AuthConstants.BCRYPT + member.getPassword());
-        this.setEnabled( Integer.valueOf(1).equals(member.getStatus()));
-        this.setClientId(member.getClientId());
-    }
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -91,4 +79,3 @@ public class User implements UserDetails {
         return this.enabled;
     }
 }
-*/

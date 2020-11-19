@@ -1,0 +1,23 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: base-system
+  # 配置中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8849
+        namespace: 252300de-5857-4435-9d06-cf301f1e0733
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: ${spring.cloud.nacos.discovery.namespace}
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        prefix: ${spring.application.name}
+
+
+
+
+

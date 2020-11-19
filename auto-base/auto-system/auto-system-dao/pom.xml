@@ -17,14 +17,19 @@
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
         <targetXMLPackage>mapper</targetXMLPackage>
-        <targetMapperPackage>com.automanage.system.dao.mapper</targetMapperPackage>
-        <targetModelPackage>com.automanage.system.dao.po</targetModelPackage>
+        <targetMapperPackage>com.automanage.base.system.dao.mapper</targetMapperPackage>
+        <targetModelPackage>com.automanage.base.system.dao.po</targetModelPackage>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>${tk-mybatis.version}</version>
         </dependency>
     </dependencies>
 

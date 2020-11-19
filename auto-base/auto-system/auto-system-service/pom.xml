@@ -11,5 +11,22 @@
 
     <artifactId>auto-system-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.automanage</groupId>
+            <artifactId>auto-system-biz</artifactId>
+            <version>${base.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.automanage</groupId>
+            <artifactId>common-cons</artifactId>
+            <version>${base.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

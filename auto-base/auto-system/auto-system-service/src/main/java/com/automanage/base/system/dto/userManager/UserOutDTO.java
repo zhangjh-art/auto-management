@@ -1,4 +1,4 @@
-package com.automanage.system.service.dto.userManager;
+package com.automanage.base.system.dto.userManager;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

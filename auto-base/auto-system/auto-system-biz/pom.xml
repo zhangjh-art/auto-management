@@ -11,5 +11,12 @@
 
     <artifactId>auto-system-biz</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.automanage</groupId>
+            <artifactId>auto-system-dao</artifactId>
+            <version>${base.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
