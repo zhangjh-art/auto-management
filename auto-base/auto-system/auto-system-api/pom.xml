@@ -9,29 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>auto-system-service</artifactId>
+    <artifactId>auto-system-api</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.automanage</groupId>
-            <artifactId>auto-system-api</artifactId>
-            <version>${base.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.automanage</groupId>
-            <artifactId>auto-system-biz</artifactId>
-            <version>${base.version}</version>
-        </dependency>
         <dependency>
             <groupId>com.automanage</groupId>
             <artifactId>common-cons</artifactId>
             <version>${base.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>

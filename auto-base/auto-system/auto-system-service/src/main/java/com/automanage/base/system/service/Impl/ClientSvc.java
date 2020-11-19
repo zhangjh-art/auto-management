@@ -4,7 +4,7 @@ import com.automanage.base.common.result.Result;
 import com.automanage.base.common.util.BeanUtil;
 import com.automanage.base.system.biz.ClientBiz;
 import com.automanage.base.system.bo.client.ClientOutBo;
-import com.automanage.base.system.dto.client.ClientDTO;
+import com.automanage.base.system.dto.ClientDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
