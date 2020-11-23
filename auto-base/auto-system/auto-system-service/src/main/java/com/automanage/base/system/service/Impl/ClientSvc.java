@@ -10,11 +10,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
 @Slf4j
 @Service("ClientSvc")
+@RestController
 @RequestMapping("/users")
 public class ClientSvc {
     @Resource
@@ -28,7 +30,7 @@ public class ClientSvc {
         Result<ClientDTO> result = null;
         if(outBo.getCode().equals("0000")){//成功获取用户
             ClientDTO client = new ClientDTO();
-            BeanUtil.copyProperties(outBo,client);
+            BeanUtil.copyProperties(client,outBo);
             result = Result.success(client);
         }
         return result;

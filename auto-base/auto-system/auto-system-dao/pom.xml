@@ -17,8 +17,8 @@
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
         <targetXMLPackage>mapper</targetXMLPackage>
-        <targetMapperPackage>com.automanage.base.system.dao.mapper</targetMapperPackage>
-        <targetModelPackage>com.automanage.base.system.dao.po</targetModelPackage>
+        <targetMapperPackage>com.automanage.base.system.mapper</targetMapperPackage>
+        <targetModelPackage>com.automanage.base.system.po</targetModelPackage>
     </properties>
 
     <dependencies>

@@ -6,6 +6,8 @@ import com.automanage.base.system.po.TSysUser;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;

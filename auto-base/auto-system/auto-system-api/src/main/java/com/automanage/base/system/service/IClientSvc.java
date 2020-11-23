@@ -1,15 +1,15 @@
 package com.automanage.base.system.service;
 
-import com.automanage.base.common.result.Result;
 import com.automanage.base.system.dto.ClientDTO;
+import com.automanage.base.common.result.Result;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
-@Component
-@FeignClient("system-client")
-public abstract class IClientSvc {
+@RestController
+@FeignClient("base-system")
+public interface IClientSvc {
     @GetMapping("/users/user/{username}")
-    public abstract Result<ClientDTO> loadUserByUsername(@PathVariable String username) throws Exception;
+    Result<ClientDTO> loadUserByUsername(@PathVariable String username) throws Exception;
 }

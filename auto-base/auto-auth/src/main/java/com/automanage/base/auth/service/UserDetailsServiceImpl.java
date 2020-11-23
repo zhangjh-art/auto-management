@@ -37,8 +37,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = null;
         switch (clientId) {
             case AuthConstants.ADMIN_CLIENT_ID: // 后台用户
-                Result<ClientDTO> userResult = clientSvc.loadUserByUsername(username);
-                //Result<ClientDTO> userResult = null;
+                Result<ClientDTO>  userResult;
+                userResult = clientSvc.loadUserByUsername(username);
                 if (userResult == null || !ResultCode.SUCCESS.getCode().equals(userResult.getCode())) {
                     throw new UsernameNotFoundException("用户不存在");
                 }
@@ -47,6 +47,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                 user = new User(userDTO);
                 break;
         }
+        user.setEnabled(true);//默认激活，稍稍删除
         if (!user.isEnabled()) {
             throw new DisabledException("该账户已被禁用!");
         } else if (!user.isAccountNonLocked()) {

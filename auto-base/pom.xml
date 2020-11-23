@@ -12,7 +12,6 @@
         <module>auto-nacos</module>
         <module>auto-auth</module>
         <module>auto-common</module>
-        <module>auto-common/common-cons</module>
         <module>auto-system</module>
     </modules>
     <packaging>pom</packaging>
@@ -37,6 +36,7 @@
         <base.version>1.0-SNAPSHOT</base.version>
         <jackson.version>2.9.3</jackson.version>
         <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
+        <druid.version>1.1.22</druid.version>
         <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
     </properties>
 
@@ -77,14 +77,14 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 
 </project>

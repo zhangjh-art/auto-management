@@ -17,7 +17,6 @@
         <module>auto-system-biz</module>
         <module>auto-system-assembly</module>
         <module>auto-system-api</module>
-        <module>auto-system-api</module>
     </modules>
 
     <dependencies>
