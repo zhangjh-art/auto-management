@@ -36,7 +36,7 @@ public class User implements UserDetails {
         this.setId(user.getId());
         this.setUsername(user.getUsername());
         this.setPassword(AuthConstants.BCRYPT + user.getPassword());
-        this.setEnabled(Integer.valueOf(1).equals(user.getStatus()));
+        this.setEnabled(Integer.valueOf(1).equals(user.getState()));
         this.setClientId(user.getClientId());
         if (user.getRoles() != null) {
             authorities = new ArrayList<>();

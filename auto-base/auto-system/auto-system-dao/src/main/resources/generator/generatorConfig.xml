@@ -47,5 +47,9 @@
         </javaClientGenerator>
         <!-- 要生成哪些表 -->
         <table tableName="t_sys_user"></table>
+        <table tableName="t_sys_role"></table>
+        <table tableName="t_sys_userrole"></table>
+        <table tableName="t_sys_targetpermission"></table>
+        <table tableName="t_sys_menu"></table>
     </context>
 </generatorConfiguration>

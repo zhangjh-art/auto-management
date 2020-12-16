@@ -10,7 +10,7 @@
     <result column="NAME" jdbcType="VARCHAR" property="name" />
     <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
     <result column="REGION_ID" jdbcType="DECIMAL" property="regionId" />
-    <result column="DUTY_ID" jdbcType="DECIMAL" property="dutyId" />
+    <result column="STATE" jdbcType="DECIMAL" property="state" />
     <result column="LOGIN_NUM" jdbcType="DECIMAL" property="loginNum" />
     <result column="DEPARTMENT_ID" jdbcType="DECIMAL" property="departmentId" />
     <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />

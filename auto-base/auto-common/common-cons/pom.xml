@@ -19,6 +19,11 @@
             <artifactId>commons-beanutils</artifactId>
             <version>${beanutils.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>${pagehelper.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

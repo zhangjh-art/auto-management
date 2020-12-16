@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.automanage.base.system.mapper.TSysMenuMapper">
+  <resultMap id="BaseResultMap" type="com.automanage.base.system.po.TSysMenu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="CODE" jdbcType="VARCHAR" property="code" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="NAME_EN" jdbcType="VARCHAR" property="nameEn" />
+    <result column="PAGE_URL" jdbcType="VARCHAR" property="pageUrl" />
+    <result column="ICON" jdbcType="VARCHAR" property="icon" />
+    <result column="PARENTID" jdbcType="DECIMAL" property="parentid" />
+    <result column="VALID_IS" jdbcType="DECIMAL" property="validIs" />
+    <result column="LEAFIS" jdbcType="DECIMAL" property="leafis" />
+    <result column="NOTE" jdbcType="VARCHAR" property="note" />
+    <result column="SEQ" jdbcType="DECIMAL" property="seq" />
+    <result column="CREATOR_ID" jdbcType="DECIMAL" property="creatorId" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="MODIFIER_ID" jdbcType="DECIMAL" property="modifierId" />
+    <result column="MODIFY_DATE" jdbcType="TIMESTAMP" property="modifyDate" />
+  </resultMap>
+</mapper>

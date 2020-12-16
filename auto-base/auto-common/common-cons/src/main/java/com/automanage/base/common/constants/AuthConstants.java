@@ -52,6 +52,10 @@ public interface AuthConstants {
      */
     String BCRYPT = "{bcrypt}";
 
+    String JWT_USER_ID_KEY = "id";
+
+    String JWT_CLIENT_ID_KEY = "client_id";
+
     /**
      * 客户端ID
      */

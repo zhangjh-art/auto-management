@@ -12,7 +12,7 @@ public class ClientDTO {
     private Long id;
     private String username;
     private String password;
-    private Integer status;
+    private Integer state;
     private String clientId;
     private List<Integer> roles;
 

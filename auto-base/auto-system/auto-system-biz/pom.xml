@@ -17,6 +17,11 @@
             <artifactId>auto-system-dao</artifactId>
             <version>${base.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.automanage</groupId>
+            <artifactId>common-cons</artifactId>
+            <version>${base.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 import java.util.Date;
 import javax.persistence.*;
 
-@Table(name = "t_sys_user")
-public class TSysUser implements Serializable {
+@Table(name = "t_sys_role")
+public class TSysRole implements Serializable {
     /**
      * ID
      */
@@ -15,52 +15,34 @@ public class TSysUser implements Serializable {
     private BigDecimal id;
 
     /**
-     * 工号编码
+     * 角色编码
      */
     @Column(name = "CODE")
     private String code;
 
     /**
-     * 工号名称
+     * 角色名称
      */
     @Column(name = "NAME")
     private String name;
 
     /**
-     * 密码
+     * 角色常量
      */
-    @Column(name = "PASSWORD")
-    private String password;
-
-    /**
-     * 所属区域
-     */
-    @Column(name = "REGION_ID")
-    private BigDecimal regionId;
-
-    /**
-     * 1-有效 0-无效
-     */
-    @Column(name = "STATE")
-    private BigDecimal state;
-
-    /**
-     * 登录次数
-     */
-    @Column(name = "LOGIN_NUM")
-    private BigDecimal loginNum;
-
-    /**
-     * 所属部门
-     */
-    @Column(name = "DEPARTMENT_ID")
-    private BigDecimal departmentId;
+    @Column(name = "CONSTANT_NAME")
+    private String constantName;
 
     /**
      * 描述
      */
-    @Column(name = "DESCRIPTION")
-    private String description;
+    @Column(name = "ROLE_DESC")
+    private String roleDesc;
+
+    /**
+     * 角色状态（已用、停用）
+     */
+    @Column(name = "ROLE_STATE")
+    private BigDecimal roleState;
 
     /**
      * 创建人
@@ -92,12 +74,6 @@ public class TSysUser implements Serializable {
     @Column(name = "VERSION")
     private BigDecimal version;
 
-    /**
-     * 联系电话
-     */
-    @Column(name = "CONTACT_TELEPHONE")
-    private String contactTelephone;
-
     private static final long serialVersionUID = 1L;
 
     /**
@@ -119,147 +95,93 @@ public class TSysUser implements Serializable {
     }
 
     /**
-     * 获取工号编码
+     * 获取角色编码
      *
-     * @return CODE - 工号编码
+     * @return CODE - 角色编码
      */
     public String getCode() {
         return code;
     }
 
     /**
-     * 设置工号编码
+     * 设置角色编码
      *
-     * @param code 工号编码
+     * @param code 角色编码
      */
     public void setCode(String code) {
         this.code = code == null ? null : code.trim();
     }
 
     /**
-     * 获取工号名称
+     * 获取角色名称
      *
-     * @return NAME - 工号名称
+     * @return NAME - 角色名称
      */
     public String getName() {
         return name;
     }
 
     /**
-     * 设置工号名称
+     * 设置角色名称
      *
-     * @param name 工号名称
+     * @param name 角色名称
      */
     public void setName(String name) {
         this.name = name == null ? null : name.trim();
     }
 
     /**
-     * 获取密码
+     * 获取角色常量
      *
-     * @return PASSWORD - 密码
+     * @return CONSTANT_NAME - 角色常量
      */
-    public String getPassword() {
-        return password;
+    public String getConstantName() {
+        return constantName;
     }
 
     /**
-     * 设置密码
+     * 设置角色常量
      *
-     * @param password 密码
+     * @param constantName 角色常量
      */
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
-    }
-
-    /**
-     * 获取所属区域
-     *
-     * @return REGION_ID - 所属区域
-     */
-    public BigDecimal getRegionId() {
-        return regionId;
-    }
-
-    /**
-     * 设置所属区域
-     *
-     * @param regionId 所属区域
-     */
-    public void setRegionId(BigDecimal regionId) {
-        this.regionId = regionId;
-    }
-
-    /**
-     * 获取1-有效 0-无效
-     *
-     * @return STATE - 1-有效 0-无效
-     */
-    public BigDecimal getState() {
-        return state;
-    }
-
-    /**
-     * 设置1-有效 0-无效
-     *
-     * @param state 1-有效 0-无效
-     */
-    public void setState(BigDecimal state) {
-        this.state = state;
-    }
-
-    /**
-     * 获取登录次数
-     *
-     * @return LOGIN_NUM - 登录次数
-     */
-    public BigDecimal getLoginNum() {
-        return loginNum;
-    }
-
-    /**
-     * 设置登录次数
-     *
-     * @param loginNum 登录次数
-     */
-    public void setLoginNum(BigDecimal loginNum) {
-        this.loginNum = loginNum;
-    }
-
-    /**
-     * 获取所属部门
-     *
-     * @return DEPARTMENT_ID - 所属部门
-     */
-    public BigDecimal getDepartmentId() {
-        return departmentId;
-    }
-
-    /**
-     * 设置所属部门
-     *
-     * @param departmentId 所属部门
-     */
-    public void setDepartmentId(BigDecimal departmentId) {
-        this.departmentId = departmentId;
+    public void setConstantName(String constantName) {
+        this.constantName = constantName == null ? null : constantName.trim();
     }
 
     /**
      * 获取描述
      *
-     * @return DESCRIPTION - 描述
+     * @return ROLE_DESC - 描述
      */
-    public String getDescription() {
-        return description;
+    public String getRoleDesc() {
+        return roleDesc;
     }
 
     /**
      * 设置描述
      *
-     * @param description 描述
+     * @param roleDesc 描述
      */
-    public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
+    public void setRoleDesc(String roleDesc) {
+        this.roleDesc = roleDesc == null ? null : roleDesc.trim();
+    }
+
+    /**
+     * 获取角色状态（已用、停用）
+     *
+     * @return ROLE_STATE - 角色状态（已用、停用）
+     */
+    public BigDecimal getRoleState() {
+        return roleState;
+    }
+
+    /**
+     * 设置角色状态（已用、停用）
+     *
+     * @param roleState 角色状态（已用、停用）
+     */
+    public void setRoleState(BigDecimal roleState) {
+        this.roleState = roleState;
     }
 
     /**
@@ -350,23 +272,5 @@ public class TSysUser implements Serializable {
      */
     public void setVersion(BigDecimal version) {
         this.version = version;
-    }
-
-    /**
-     * 获取联系电话
-     *
-     * @return CONTACT_TELEPHONE - 联系电话
-     */
-    public String getContactTelephone() {
-        return contactTelephone;
-    }
-
-    /**
-     * 设置联系电话
-     *
-     * @param contactTelephone 联系电话
-     */
-    public void setContactTelephone(String contactTelephone) {
-        this.contactTelephone = contactTelephone == null ? null : contactTelephone.trim();
     }
 }

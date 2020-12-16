@@ -1,5 +1,6 @@
 package com.automanage.base.auth.config;
 
+import com.automanage.base.auth.domain.User;
 import com.automanage.base.auth.service.JdbcClientDetailsServiceImpl;
 import com.automanage.base.auth.service.UserDetailsServiceImpl;
 import com.automanage.base.common.constants.AuthConstants;
@@ -110,9 +111,9 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     public TokenEnhancer tokenEnhancer() {
         return (accessToken, authentication) -> {
             Map<String, Object> map = new HashMap<>(2);
-            //User user = (User) authentication.getUserAuthentication().getPrincipal();
-            //map.put(AuthConstants.JWT_USER_ID_KEY, user.getId());
-            //map.put(AuthConstants.JWT_CLIENT_ID_KEY, user.getClientId());
+            User user = (User) authentication.getUserAuthentication().getPrincipal();
+            map.put(AuthConstants.JWT_USER_ID_KEY, user.getId());
+            map.put(AuthConstants.JWT_CLIENT_ID_KEY, user.getClientId());
             ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(map);
             return accessToken;
         };
